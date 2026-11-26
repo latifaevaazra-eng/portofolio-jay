@@ -1,0 +1,99 @@
+/* Tampilan utama */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f3f5;
+    margin: 0;
+    padding: 30px;
+    color: #333;
+}
+
+/* Container utama */
+.container {
+    background-color: white;
+    width: 80%;
+    max-width: 700px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+/* Judul */
+h1 {
+    color: #168577;
+    text-align: center;
+}
+
+/* Foto profil */
+img {
+    display: block;
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+/* Kartu hobi dan cita-cita */
+.card {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    background-color: #f7f8fa;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 8px;
+}
+
+/* Efek hover kartu */
+.card:hover {
+    background-color: #e4f2ef;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+}
+
+/* Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th {
+    background-color: #168577;
+    color: white;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f0f3f5;
+}
+
+/* Input */
+input {
+    display: block;
+    width: 90%;
+    padding: 8px;
+    margin: 5px 0 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Tombol */
+button {
+    background-color: #168577;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Efek hover tombol */
+button:hover {
+    background-color: #105e55;
+}
